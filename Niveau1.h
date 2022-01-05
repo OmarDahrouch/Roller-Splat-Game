@@ -50,11 +50,7 @@ private:
 
     cocos2d::Color4B* m_TextureData;
     cocos2d::Texture2D* m_Texture;
-    cocos2d::Sprite* m_Sprite;
 
-    int* V_B;
-    char key;
-    bool R, L = false;
 
     cocos2d::PhysicsWorld* sceneWorld;
 
